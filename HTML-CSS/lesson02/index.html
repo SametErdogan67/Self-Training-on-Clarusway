@@ -1,0 +1,220 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <style>
+      .unordered {
+        border: 2px solid blue;
+        width: 200px;
+        list-style-type: square;
+        font-weight: bold;
+      }
+      #chocolate {
+        color: aqua;
+        background-color: bisque;
+      }
+
+      .title {
+        text-transform: uppercase;
+      }
+
+      #banana {
+        text-decoration: underline;
+        text-align: center;
+      }
+
+      .vegetables {
+        list-style-type: square;
+      }
+      table{
+        border-collapse: collapse;
+      }
+      td{
+        text-align: center;
+      }
+    </style>
+  </head>
+  <body>
+    <ol>
+      <li>Lorem ipsum dolor sit amet.</li>
+      <li>Asperiores necessitatibus dolorum et rerum.</li>
+      <li>Molestias numquam vitae quos cum.</li>
+      <li>Reprehenderit perspiciatis rem earum aliquid!</li>
+    </ol>
+
+    <ul>
+      <li>
+        Lorem, ipsum.
+        <ol>
+          <li>Lorem, ipsum.</li>
+          <li>Voluptates, error?</li>
+          <li>Ad, id.</li>
+        </ol>
+      </li>
+      <li>Omnis, unde!</li>
+      <li>Voluptatibus, tempore.</li>
+      <li>Illum, voluptatum.</li>
+      <li>Dolor, culpa.</li>
+    </ul>
+
+    <ol type="I" reversed>
+      <li>FullStack</li>
+      <li>Data-Science</li>
+      <li>AWS/DevOps</li>
+      <li>Tester</li>
+      <li>Cyber security</li>
+      <li>Design</li>
+    </ol>
+
+    <hr />
+    <hr />
+    <h3>Sırasız Listeler</h3>
+    <br />
+
+    <ul class="unordered">
+      <span class="title">Waffle Malzemeleri</span>
+      <li id="chocolate">Çikolata</li>
+      <li id="banana">Muz</li>
+      <li>Dondurma</li>
+      <li>Çilek</li>
+    </ul>
+
+    <h3>Tanımlama Listeleri (DL)</h3>
+
+    <dl>
+      <dt>Araba</dt>
+      <dd>4 Tekerli kara taşıtı</dd>
+      <dt>Uçak</dt>
+      <dd>Hava Aracı</dd>
+      <dt>Karpuz</dt>
+      <dd>Sulu bir meyve</dd>
+    </dl>
+
+    <h2>LIST EXAMPLE</h2>
+
+    <ol>
+      <li>
+        Fruits
+        <ul>
+          <li>Apple</li>
+          <li>Banana</li>
+        </ul>
+      </li>
+      <li>
+        Vegetables
+        <ul class="vegetables">
+          <li>Cabbage</li>
+          <li>Spinach</li>
+        </ul>
+      </li>
+    </ol>
+
+    <hr />
+    <hr />
+    <hr />
+
+    <h2>Table Element</h2>
+
+    <table>
+      <tr>
+        <th>İsimler</th>
+        <th>Vize</th>
+        <th>Final</th>
+      </tr>
+
+      <tr>
+        <td>Ömer</td>
+        <td>75</td>
+        <td>60</td>
+      </tr>
+
+      <tr>
+        <td>Emre</td>
+        <td>50</td>
+        <td>80</td>
+      </tr>
+    </table>
+
+    <hr />
+    <hr />
+
+    <h2>Table Practice</h2>
+
+    <br />
+
+    <table border="2px">
+      <thead>
+        <tr>
+          <th>Ad</th>
+          <th>SoyAd</th>
+          <th>Yaş</th>
+        </tr>
+      </thead>
+
+      <tbody>
+        <tr>
+          <td>Berat Mert</td>
+          <td rowspan="2">Erdoğan</td>
+          <td>5</td>
+        </tr>
+
+        <tr>
+          <td>Alya Melis</td>
+          <!-- <td>Erdoğan</td> -->
+          <td>1</td>
+        </tr>
+
+        <tr>
+            <td colspan="3" style="text-align:center ;">Lorem.</td>
+            <!-- <td>Error.</td>
+            <td>Quis.</td> -->
+        </tr>
+      </tbody>
+    </table>
+
+
+    <h2>New Practice</h2>
+
+<div class="table2" style="border: 2px solid blue; width: 500px;">
+    <table border="1px">
+        <thead>
+            <caption style="margin: 10px; font-weight:bold">
+            Customer Information Table 
+            </caption>
+        
+            <tr>
+                <th>Name</th>
+                <th colspan="2">Jobs</th>
+                <th>Working Experience</th>
+            </tr>
+        </thead>
+
+        <tbody>
+            <tr>
+                <td>Henry</td>
+                <td colspan="2">Senior Web Developer</td>
+                
+                <td rowspan="2">5 years</td>
+            </tr>
+
+            <tr>
+                <td>Jason</td>
+                <td>Senior Engineer</td>
+                <td>FullStack Developer</td>
+                <!-- <td>5 years</td> -->
+            </tr>
+
+            <tr>
+                <td>Fred</td>
+                <td>Senior Engineer</td>
+                <td>Backend Developer</td>
+                <td>2 years</td>
+            </tr>
+        </tbody>
+    </table>
+</div>
+  </body>
+</html>
