@@ -1,0 +1,168 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        .studentInfo{
+            
+            border-collapse: collapse;
+            width: 500px;
+        }
+
+        .studentInfo td{
+            border: 1px solid black;
+        }
+        
+
+        .studentInfo tr:nth-child(even) {
+            background-color: #E4FFB7;
+        }
+
+        .studentInfo tr:nth-child(odd) {
+            background-color: #EFFFD2;
+        }
+
+        
+        .header{
+
+            text-align: center;
+            font-weight: bolder;
+            background-color: #80B327;
+           color: white;
+        }
+
+        .carInfo td{
+            border: 1px solid black;
+        }
+
+        .carInfo{
+            border-collapse: collapse;
+            width: 500px;
+            text-align: left;
+        }
+        .thead{
+            font-weight: bold;
+        }
+    </style>
+</head>
+<body>
+    <div >
+        <table  class="studentInfo">
+            <thead>
+             <td class="header" colspan="6">STUDENTS MARK SHEET</td>   
+            </thead>
+            <tbody>
+                <tr class="mainRow">
+                    <td>Name</td>
+                    <td>Maths</td>
+                    <td>Science</td>
+                    <td>English</td>
+                    <td>Physics</td>
+                    <td>General Knowledge</td>
+                </tr>
+    
+                <tr class="altRow">
+                    <td>David</td>
+                    <td>85</td>
+                    <td>87</td>
+                    <td>88</td>
+                    <td>92</td>
+                    <td>88</td>
+                </tr>
+    
+                <tr>
+                    <td>Richard</td>
+                    <td>85</td>
+                    <td>87</td>
+                    <td>88</td>
+                    <td>74</td>
+                    <td>78</td>
+                </tr>
+    
+                <tr>
+                    <td>John</td>
+                    <td>85</td>
+                    <td>87</td>
+                    <td>88</td>
+                    <td>92</td>
+                    <td>88</td>
+                </tr>
+    
+                <tr>
+                    <td>Tony</td>
+                    <td>85</td>
+                    <td>87</td>
+                    <td>88</td>
+                    <td>92</td>
+                    <td>88</td>
+                </tr>
+    
+                <tr>
+                    <td>Scott</td>
+                    <td>85</td>
+                    <td>87</td>
+                    <td>88</td>
+                    <td>92</td>
+                    <td>88</td>
+                </tr>
+    
+               
+            </tbody>
+        </table>
+
+
+        <br><br><hr><br>
+
+
+        <table class="carInfo">
+            <thead>
+                <tr class="thead">
+                    <td>Company</td>
+                    <td>Model</td>
+                </tr>
+            </thead>
+
+            <tbody>
+                <tr>
+                    <td>Dodge</td>
+                    <td>Challenger</td>
+                </tr>
+
+                <tr>
+                    <td>Maruti</td>
+                    <td>Swift</td>
+                </tr>
+
+                <tr>
+                    <td>Jeep</td>
+                    <td>Wrangler</td>
+                </tr>
+
+                <tr>
+                    <td rowspan="3">Ford</td>
+                    <td>Fusion</td>
+                </tr>
+
+                <tr>
+                    
+                    <td>Fiesta</td>
+                </tr>
+
+                <tr>
+                    
+                    <td>Escape</td>
+                </tr>
+
+                
+                <tr>
+                    <td>BMW</td>
+                    <td>BMW 5 Series</td>
+                </tr>
+            </tbody>
+        </table>
+    </div>
+</body>
+</html>
