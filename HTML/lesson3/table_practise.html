@@ -1,0 +1,129 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Zaman Çizelgesi</title>
+    <style>
+        *{
+            text-align: center;
+            padding: 5px;
+        }
+
+        .tableInfo{
+            
+            border-collapse: collapse;
+            width: 500px;
+            font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+            font-size: small;
+            
+        }
+        .tableInfo td{
+            border: 1px solid black;
+        }
+        
+
+        .tableInfo tr:nth-child(even) {
+            background-color: #90c9f8;
+        }
+
+        .tableInfo tr:nth-child(odd) {
+            background-color: #d1e5f5;
+        }
+
+        .header{
+
+        text-align: center;
+        font-weight: bolder;
+        background-color: #80B327;
+        color: black;
+        }
+        
+    </style>
+</head>
+<body>
+
+    <table class="tableInfo">
+        
+        
+        <thead class="header">
+            <tr>
+                <th colspan="7" style="background-color: rgb(85, 85, 248); color:white"> Zaman Çizelgesi</th>
+            </tr>
+            <tr>
+                <th style="text-align:left;">Günler</th>
+                <td></th>
+                <td>Ptesi</th>
+                <td>Salı</th>
+                <td>Çarş</th>
+                <td>Perş</th>
+                <td>Cuma</th>
+            </tr>
+
+            <tr>
+                <th style="text-align:left;" rowspan="5">Saatler</th>
+                <td>1</td>
+                <td>Türkçe</td>
+                <td>Mat</td>
+                <td>Türkçe</td>
+                <td>Mat</td>
+                <td>Fen</td>
+            </tr>
+
+            <tr>
+                <!-- <th>Saatler</th> -->
+                <td>2</td>
+                <td>Türkçe</td>
+                <td>Mat</td>
+                <td>Türkçe</td>
+                <td>Mat</td>
+                <td>Fen</td>
+            </tr>
+
+            <tr>
+                <!-- <th>Saatler</th> -->
+                <td colspan="6">DİNLENME</td>
+                
+            </tr>
+
+            <tr>
+                <!-- <th>Saatler</th> -->
+                <td>3</td>
+                <td>Sosyal</td>
+                <td>Müzik</td>
+                <td>Sosyal</td>
+                <td>Fen</td>
+                <td>Din</td>
+            </tr>
+
+            <tr>
+                <!-- <th>Saatler</th> -->
+                <td>4</td>
+                <td>Sosyal</td>
+                <td>Beden</td>
+                <td>Sosyal</td>
+                <td>Fen</td>
+                <td>Din</td>
+            </tr>
+        </thead>
+    </table>
+
+    <br><br><br><hr><br><br>
+
+    <table>
+        <thead>
+            <tr>
+
+                <th>Urun Kodu</th>
+                <th>Urun Adi</th>
+                <th>Miktar</th>
+                <th>Birim Fiyat</th>
+                <th>Ara Toplam</th>
+                <th></th>
+
+            </tr>
+        </thead>
+    </table>
+</body>
+</html>
