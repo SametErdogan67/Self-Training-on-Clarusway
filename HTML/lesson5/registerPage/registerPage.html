@@ -1,0 +1,91 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Register Page</title>
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <div>
+      <h2>REGISTER PAGE</h2>
+    </div>
+
+    <div class="mainStructure">
+      <form action="registerPage" method="get">
+        <div class="label">
+          <label for="firstname">First Name:</label>
+          <input type="text" id="firstname" /><br /><br />
+        </div>
+
+        <div class="label">
+          <label for="lastname">Last Name:</label>
+          <input type="text" id="lastname" /><br /><br />
+        </div>
+
+        <div class="label">
+          <label for="email">Email:</label>
+          <input type="email" id="email" /><br /><br />
+        </div>
+
+        <div class="label">
+          <label for="password">Password:</label>
+          <input type="password" id="password" /><br /><br />
+        </div>
+
+        <div class="label">
+          <label for="date">Day of Birth:</label>
+          <input type="date" id="date" /><br /><br />
+        </div>
+
+        <div class="label">
+          <label for="phone">Phone:</label>
+          <input type="number" id="phone" /><br /><br />
+        </div>
+
+        <div class="address">
+          <label for="address" class="addressText">Address:</label>
+          <textarea
+            name="address"
+            id="address"
+            cols="25"
+            rows="8"
+            class="textarea"
+          ></textarea
+          ><br /><br />
+        </div>
+
+        <div class="label">
+          <label for="">Country:</label>
+          <select name="country" id="country">
+            <option value="select country">Select Country</option>
+            <option value="turkey">Turkey</option>
+            <option value="germany">Germany</option>
+            <option value="netherlan">Netherland</option>
+            <option value="greece">Greece</option>
+            <option value="UK">UK</option>
+            <option value="USA">USA</option></select
+          ><br /><br />
+        </div>
+
+        <div class="label">
+          <label for="gender" class="gender">Gender:</label>
+          <input type="radio" name="gender" value="male" class="radio" />Male
+          <input
+            type="radio"
+            name="gender"
+            value="female"
+            class="radio"
+            checked
+          />Female <br /><br />
+        </div>
+
+        <div class="btns">
+          <input type="submit" value="Save" class="" />
+          <input type="reset" value="Clear" />
+        </div>
+      </form>
+    </div>
+  </body>
+</html>

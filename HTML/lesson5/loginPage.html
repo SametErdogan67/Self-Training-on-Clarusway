@@ -1,0 +1,87 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Login Page</title>
+    <style>
+      * {
+        margin: 0;
+        padding: 0;
+        box-sizing: border-box;
+
+      }
+      body {
+        text-align: center;
+        background-image: url(https://cdn.pixabay.com/photo/2022/11/24/02/28/clouds-7613361_960_720.png);
+      }
+      .head{
+        margin:30px;
+      }
+      .structure {
+        background-color: #D9AFD9;
+background-image: linear-gradient(0deg, #D9AFD9 0%, #97D9E1 100%);
+        padding: 40px;
+        width: fit-content;
+        text-align: center;
+        display: inline-block;
+        font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+        font-weight: 15px;
+        border-radius: 15px;
+        box-shadow: 3px 5px #8ec9f1;
+        
+
+        
+      }
+
+      label {
+        display: inline-block;
+        text-align: left;
+        width: 110px;
+      }
+      .btns{
+        padding: 10px 30px;
+        border-radius: 8px;
+        margin: 10px;
+        background-color: hotpink;
+      }
+      .btns:hover{
+        background-color: blueviolet;
+        color: aliceblue;
+        cursor: pointer;
+      }
+    </style>
+  </head>
+  <body>
+    <div>
+      <div class="head">
+        <h1>LOGIN PAGE</h1>
+      </div>
+
+      <div  class="structure">
+        <form action="">
+          <div>
+            <label for="username">Username:</label>
+            <input type="text" id="username" placeholder="Enter your username" /><br /><br /><br>
+          </div>
+
+          <div>
+            <label for="password">Password:</label>
+            <input type="password" id="password" placeholder="Enter your password" /> <br /><br /><br>
+          </div>
+
+          <div>
+            <label for="code">Security Code:</label>
+            <input type="number" id="code" placeholder="Enter your security code"/> <br /><br /><br>
+          </div>
+
+          <div class=>
+            <input type="submit" value="Save" class="btns" />
+            <input type="reset" value="Clear" class="btns"/>
+          </div>
+        </form>
+      </div>
+    </div>
+  </body>
+</html>

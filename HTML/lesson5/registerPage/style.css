@@ -1,0 +1,88 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  text-align: center;
+  background-color: aliceblue;
+  margin: 20px;
+}
+
+h2{
+    margin-bottom: 10px;
+}
+
+.mainStructure {
+   
+  background-color: #d9afd9;
+  background-image: linear-gradient(0deg, #d9afd9 0%, #97d9e1 100%);
+  border: 2px solid gray;
+  width: 400px;
+  width: 400px;
+
+  padding: 40px;
+  margin: auto;
+  height: 650px;
+  padding: 30px;
+  border-radius: 20px;
+  font-size: 18px;
+  font-weight: bolder;
+  box-shadow: 2px 4px 2px 4px #6b596b;
+}
+
+.label label {
+  display: inline-block;
+  text-align: left;
+  width: 110px;
+}
+
+input {
+  width: 200px;
+  height: 30px;
+  border-radius: 3px;
+}
+
+select {
+  width: 200px;
+  height: 30px;
+}
+
+textarea {
+  text-align: right;
+}
+
+.addressText {
+  position: absolute;
+  top: 400px;
+  left: 100px;
+}
+.textarea {
+  margin-left: 115px;
+}
+
+.btns input {
+  background-color: rgb(225, 96, 223);
+  font-size: 20px;
+
+ 
+  border-radius: 10px;
+  width: 100px;
+  pa
+}
+
+.btns input:hover{
+    background-color: purple;
+    color:white;
+}
+
+input[type="radio"] {
+  border: 0px;
+  width: 1.5em;
+  height: 1.5em;
+}
+
+.gender {
+  margin-right: 55px;
+}
