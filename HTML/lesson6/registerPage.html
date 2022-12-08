@@ -1,0 +1,118 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Register Page</title>
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <h1>REGISTER PAGE</h1>
+
+    <form action="" method="get">
+      <div class="şüphelieft">
+        <label for="firstname">First Name:</label>
+        <input
+          type="text"
+          name="firstname"
+          id="firstname"
+          placeholder="Please enter first name"
+          required
+        />
+      </div>
+
+      <div>
+        <label for="lastname">Last Name:</label>
+        <input
+          type="text"
+          name="lastname"
+          id="lastname"
+          placeholder="Please enter last name"
+          required
+        />
+      </div>
+
+      <div>
+        <label for="email">Email:</label>
+        <input
+          type="email"
+          name="email"
+          id="Email"
+          placeholder="Please enter email"
+          required
+        />
+      </div>
+
+      <div>
+        <label for="password">Password:</label>
+        <input
+          type="password"
+          name="password"
+          id="password"
+          placeholder="Please enter password"
+          required
+        />
+      </div>
+
+      <div>
+        <label for="dayofbirth">Day of Birth:</label>
+        <input
+          type="date"
+          name="dayofbirth"
+          id="dayofbirth"
+          placeholder="Please enter day of birth"
+          required
+        />
+      </div>
+
+      <div>
+        <label for="phone">Phone:</label>
+        <input
+          type="number"
+          name="phone"
+          id="phone"
+          placeholder="Please enter phone"
+          required
+        />
+      </div>
+
+      <div>
+        <label for="address">Address:</label>
+        <textarea name="address" id="address" cols="30" rows="10" placeholder="Please enter address"></textarea>
+
+      <div class="div-country">
+        <label for="">Country:</label>
+        <select name="country" id="country">
+          <option value="select country">Select Country</option>
+          <option value="turkey">Turkey</option>
+          <option value="germany">Germany</option>
+          <option value="netherland">Netherland</option>
+          <option value="greece">Greece</option>
+          <option value="UK">UK</option>
+          <option value="USA">USA</option></select
+        >
+      </div>
+
+      <div class="gender-div">
+        <label for="gender" class="gender">Gender:</label>
+        <input type="radio" name="gender" value="male" class="radio" id="male"/>
+        <label for="male" name="gender">Male</label>
+        <input
+          type="radio"
+          name="gender"
+          value="female"
+          class="radio"
+          id="female"
+          checked
+        />
+        <label for="female" name="gender">Female</label>
+      </div>
+
+      <div>
+        <input type="submit" value="Save" />
+        <input type="reset" value="Clear" />
+      </div>
+    </form>
+  </body>
+</html>
