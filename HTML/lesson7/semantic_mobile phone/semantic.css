@@ -1,0 +1,43 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+body {
+  text-align: center;
+}
+
+header {
+  padding: 40px;
+  background-color: red;
+  color: white;
+  font-size: 40px;
+}
+
+nav {
+  background-color: blueviolet;
+  color: white;
+  padding: 20px;
+  font-size: 20px;
+}
+nav a {
+  color: white;
+  text-decoration: none;
+}
+nav a:hover {
+  text-decoration: underline;
+}
+
+h2 {
+  margin: 20px;
+}
+section {
+  margin-bottom: 20px;
+}
+
+footer {
+  margin: 20px;
+  background: black;
+  color: white;
+  padding: 20px;
+}

@@ -1,0 +1,37 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+h2 {
+  text-align: center;
+  padding: 20px 0;
+}
+body {
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+form {
+  background-color: antiquewhite;
+  width: fit-content;
+  margin: 20px auto;
+  padding: 30px;
+}
+
+.leftside {
+  display: inline-block;
+  width: 120px;
+}
+
+.rightside {
+  width: 200px;
+  border-radius: 4px;
+  height: 25px;
+  padding: 10px;
+  margin-bottom: 10px;
+  border: 1px solid rgba(0, 0, 0, 0.3);
+}
+
+.radio {
+  width: 40px;
+}
