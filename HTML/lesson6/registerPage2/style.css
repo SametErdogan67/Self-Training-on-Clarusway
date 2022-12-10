@@ -6,16 +6,23 @@
 h2 {
   text-align: center;
   padding: 20px 0;
+  color: aliceblue;
 }
 body {
   font-family: Verdana, Geneva, Tahoma, sans-serif;
+  background-image: url(./sea.jpg);
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
 }
 
 form {
-  background-color: antiquewhite;
+  background-image: linear-gradient(rgb(125, 168, 243), rgb(213, 121, 241));
   width: fit-content;
   margin: 20px auto;
   padding: 30px;
+  border-radius: 10px;
+  border-style: none;
 }
 
 .leftside {
@@ -26,12 +33,36 @@ form {
 .rightside {
   width: 200px;
   border-radius: 4px;
-  height: 25px;
+  height: 35px;
   padding: 10px;
   margin-bottom: 10px;
   border: 1px solid rgba(0, 0, 0, 0.3);
 }
+.resize {
+  width: 200px;
+  height: 100px;
+}
+
+.textarea-div * {
+  vertical-align: middle;
+}
 
 .radio {
   width: 40px;
+}
+
+.gender-margin {
+  margin-bottom: 20px;
+}
+
+.btn {
+  text-align: center;
+}
+.btn input {
+  margin-top: 20px;
+  padding: 10px 20px;
+  border-radius: 8px;
+  background-color: rgb(250, 141, 228);
+  color: rgb(35, 21, 39);
+  border-style: none;
 }
