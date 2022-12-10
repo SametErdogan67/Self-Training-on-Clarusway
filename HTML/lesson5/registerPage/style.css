@@ -37,6 +37,25 @@ h2{
   text-align: left;
   width: 110px;
 }
+.textarea_div label{
+  display: inline-block;
+  text-align: left;
+  width: 110px;
+  margin-right: 210px;
+
+}
+
+.textarea_div * {
+vertical-align: middle;
+}
+
+
+.gender{
+  display: inline-block;
+  text-align: left;
+  width: 110px;
+}
+
 
 input {
   width: 200px;
@@ -54,9 +73,9 @@ textarea {
 }
 
 .addressText {
-  position: absolute;
+  /* position: absolute;
   top: 400px;
-  left: 100px;
+  left: 100px; */
 }
 .textarea {
   margin-left: 115px;

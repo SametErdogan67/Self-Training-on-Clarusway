@@ -16,6 +16,20 @@
   padding: 20px 100px;
   color: aliceblue;
 }
+
+.opacity-border {
+  background-color: rgba(0, 20, 0, 0.3);
+  border-radius: 10px;
+  text-align: left;
+
+  width: 700px;
+
+  margin: 30px auto;
+  padding: 30px 0;
+}
+.header {
+  text-align: center;
+}
 h1 {
   font-size: 50px;
   margin-bottom: 10px;
@@ -36,20 +50,6 @@ h4 {
   margin: auto;
 }
 
-.opacity-border {
-  border: 2px none black;
-  background-color: rgba(0, 20, 0, 0.3);
-  border-radius: 10px;
-  text-align: left;
-
-  width: 500px;
-
-  margin: 30px auto;
-  padding: 30px 0;
-}
-.header {
-  text-align: center;
-}
 .label_input {
   width: 250px;
   height: 30px;
