@@ -1,0 +1,52 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  text-align: center;
+}
+
+header {
+  background-color: red;
+  padding: 50px;
+  color: aliceblue;
+}
+
+nav {
+  background-color: hsla(283, 88%, 70%, 0.8);
+  padding: 20px;
+}
+
+nav a {
+  text-decoration: none;
+  color: aliceblue;
+  padding: 20px;
+  font-size: 20px;
+}
+nav a:hover {
+  cursor: pointer;
+  color: black;
+  font-weight: bold;
+  font-size: 30px;
+}
+
+nav a:active {
+  color: red;
+}
+h2 {
+  margin: 20px;
+}
+
+figure {
+  width: 50%;
+  margin: auto;
+}
+
+footer {
+  background-color: black;
+  color: aliceblue;
+  padding: 30px;
+  margin-top: 20px;
+}
