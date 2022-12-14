@@ -1,0 +1,36 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+#container {
+  border: 3px solid blue;
+  display: inline-block;
+  border-radius: 15px;
+  background-color: bisque;
+}
+
+/* #title,
+#description {
+  display: inline-block;
+} */
+
+img {
+  /* display: inline-block; */
+  float: left;
+  margin: 50px 25px;
+}
+
+#desc-title {
+  margin: 50px 35px;
+}
+
+p {
+  font-size: 10px;
+  padding: 20px 10px;
+}
+
+h1 {
+  padding: 10px;
+}
