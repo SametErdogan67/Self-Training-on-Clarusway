@@ -1,0 +1,86 @@
+* {
+  margin: 0;
+  /* padding: 0; */
+  box-sizing: border-box;
+}
+
+/****** LISTS *****/
+
+.languages {
+  /*? none | disc | circle |square | decimal etc. */
+  list-style-type: circle;
+  list-style-position: inside;
+  /* padding: 0; */
+  /* margin-left: 20px; */
+  list-style-image: linear-gradient(to left bottom, red, blue);
+}
+
+/*** FONTAWESOME ****/
+
+h2 {
+  color: red;
+}
+
+/****Pseudo-Classs***/
+
+/* 
+a:link
+a:visited
+a:hover
+a:active 
+*/
+
+/* 
+:first-child
+:first-of-type
+:focus
+:hover
+:last-child
+:last-of-type
+:visited 
+*/
+
+ul.pseudo li {
+  list-style-type: none;
+  background-color: aliceblue;
+  border: 1px solid grey;
+  width: 10rem;
+}
+
+ul.pseudo li:first-child {
+  background-color: antiquewhite;
+  color: red;
+}
+ul.pseudo li:last-child {
+  background-color: orange;
+}
+
+ul.pseudo li:nth-child(even) {
+  background-color: gray;
+  color: aliceblue;
+}
+
+ul.pseudo li:nth-child(odd) {
+  background-color: aliceblue;
+  color: black;
+}
+
+ul.pseudo li:hover {
+  background-color: red;
+  color: white;
+}
+
+/** PSEUDO ELEMENTS ***/
+
+/*? ::before, ::after, ::first-line, ::first-letter */
+
+ul.pseudo li::before {
+  content: "$";
+}
+
+ul.pseudo li::after {
+  content: "#";
+}
+
+.ps-elements {
+}

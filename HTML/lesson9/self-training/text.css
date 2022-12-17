@@ -1,0 +1,42 @@
+html {
+  font-size: 20px;
+}
+
+h1 {
+  color: red;
+  font-size: 50px;
+}
+
+p {
+}
+
+p.absolute {
+  font-size: 20px;
+}
+
+p.percent {
+  font-size: 100%;
+}
+
+.div1 {
+  font-size: 1em;
+}
+
+.div2 {
+  font-size: 2em;
+}
+
+.div3 {
+  font-size: 2em;
+}
+
+.div4 {
+  font-size: 1rem;
+}
+
+.div5 {
+  font-size: 2rem;
+}
+.div6 {
+  font-size: 0.5rem;
+}

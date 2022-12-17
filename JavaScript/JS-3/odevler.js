@@ -1,37 +1,6 @@
-// const age = prompt("please enter your age");
-// const healty = confirm("are you healty");
-
-// if (age >= 18 && healty == true) {
-//   console.log("Ehliyet alabilir");
-// } else {
-//   console.log("Ehliyet alamaz");
-// }
-
-// const number = prompt("Please enter a number");
-
-// if (number > 0) {
-//   console.log(`Sayiniz ${numher} pozitiftir`);
-// } else if (number < 0) {
-//   console.log(`sayiniz ${number} negatiftir`);
-// } else {
-//   console.log(`sayiniz ${number} dir`);
-// }
-
-// const number1 = +prompt("Number1:");
-// const number2 = +prompt("Number2:");
-// const number3 = +prompt("Number3:");
-
-// if (number1 > number2 && number1 > number3) {
-//   console.log("Number1 en büyüktür");
-// } else if (number2 > number1 && number2 > number3) {
-//   console.log("Number2 en büyüktür");
-// } else if (number3 > number1 && number3 > number2) {
-//   console.log("Number3 en büyüktür");
-// } else {
-//   console.log("Şarta uymuyor");
-// }
 //?*******************************************************************************
-? Ödev 1
+//? Ödev 1
+
 const number1 = +prompt("Number1:");
 const number2 = +prompt("Number2:");
 const deger = prompt("(+,-,*,/) dört işlemden birini giriniz");
@@ -54,8 +23,8 @@ if (deger === "+") {
 
 //?********************************************************************************
 
-
 //? Ödev2
+
 //! Clarusway’deki haftalik ders ve etkinlik programinizi,
 //! console’dan girilen gun degerine gore cikti veren kodu
 //! switch-case yapisi ile yaziniz.
@@ -123,7 +92,9 @@ if (realSalary >= salary) {
 
 //?***************************************************************************************
 
-//! ODEV4: Console’dan kisininin gelir ve gider miktarini alan
+//? ODEV4:
+
+//!Console’dan kisininin gelir ve gider miktarini alan
 //! eger kisinin geliri giderinden en az asgari ucret kadar fazla ise
 //! Kredi Verilebilir 🤑 , değilse  Kredi Verilemez 🥺
 //! seklinde cikti veren kodu Ternary deyimi kullanarak yaziniz.

@@ -1,0 +1,17 @@
+p::first-line {
+  font-weight: 700;
+  word-spacing: 4px;
+  letter-spacing: 5px;
+}
+
+p::first-letter {
+  font-size: 50px;
+}
+
+p.about::first-line {
+  color: red;
+}
+
+::selection {
+  background-color: yellow;
+}

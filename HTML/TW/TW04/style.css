@@ -6,11 +6,18 @@
 
 #container {
   border: 3px solid blue;
-  display: inline-block;
+  /* display: inline-block; */
   border-radius: 15px;
   background-color: bisque;
+  width: 800px;
+  height: 300px;
+  margin: 100px 200px;
 }
 
+h1 {
+  font-size: 2rem;
+  padding: 10px;
+}
 /* #title,
 #description {
   display: inline-block;
@@ -27,7 +34,7 @@ img {
 }
 
 p {
-  font-size: 10px;
+  font-size: 1rem;
   padding: 20px 10px;
 }
 

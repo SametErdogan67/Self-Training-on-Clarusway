@@ -1,0 +1,32 @@
+a {
+  border: 1px solid gray;
+  padding: 5px 8px;
+  display: inline-block;
+  text-decoration: none;
+  width: 60px;
+  text-align: center;
+}
+
+a:link {
+  color: red;
+}
+a:visited {
+  color: gray;
+}
+
+a:hover {
+  color: blue;
+  background-color: yellow;
+}
+a:active {
+  color: aliceblue;
+  background-color: violet;
+}
+
+div:hover p {
+  display: block;
+}
+
+p {
+  display: none;
+}
