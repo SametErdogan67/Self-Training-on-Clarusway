@@ -41,7 +41,7 @@ ul li {
 }
 
 img {
-  transform: rotate(60deg);
+  transform: rotate(90deg);
 }
 
 /* TRANSFORM SCALE */
@@ -70,10 +70,14 @@ img {
   width: 100px;
   height: 50px;
   font-weight: 1000;
+  transition: all 3s;
 }
 
-.X {
+.X:hover {
   transform: translateX(50px);
+  width: 200px;
+  background-color: aqua;
+  color: white;
 }
 .Y {
   transform: translateY(50px);
@@ -81,4 +85,25 @@ img {
 
 .XY {
   transform: translate(100px, 75px);
+}
+
+/*! TRANSITION  */
+
+.btn-div {
+  text-align: center;
+}
+
+.btn {
+  background-color: blueviolet;
+  border: 2px solid black;
+  font-size: 2rem;
+  padding: 20px;
+  transition: background-color 3s ease-in-out, color 1s;
+}
+
+.btn:hover {
+  background-color: blanchedalmond;
+  border-radius: 25px;
+  width: 200px;
+  color: gray;
 }
