@@ -1,0 +1,84 @@
+* {
+  margin: 0;
+  box-sizing: border-box;
+}
+
+h1 {
+  color: red;
+}
+h2 {
+  color: blue;
+}
+
+ul {
+  font-size: 2rem;
+  color: magenta;
+}
+ul li {
+  font-size: 1.5rem;
+}
+
+.yazi {
+  text-align: center;
+  font-size: 2.5rem;
+  margin: 15px;
+}
+
+.yazi1 {
+  background-color: antiquewhite;
+  transform: rotateX(180deg);
+}
+
+.yazi2 {
+  background-color: aqua;
+  transform: rotateY(180deg);
+}
+
+.yazi3 {
+  background-color: magenta;
+  transform: rotate(30deg);
+  transform-origin: left center;
+}
+
+img {
+  transform: rotate(60deg);
+}
+
+/* TRANSFORM SCALE */
+
+.yazi4 {
+  background-color: brown;
+  transform: scaleX(1.5);
+}
+
+.yazi5 {
+  background-color: rgb(154, 154, 238);
+  transform: scaleY(0.5);
+}
+
+.yazi6 {
+  background-color: rgb(230, 177, 112);
+  transform: scale(1.5, 1.2);
+}
+
+.yazi6:hover {
+  transform: scale(2.5, 1.7);
+}
+
+.box {
+  background-color: crimson;
+  width: 100px;
+  height: 50px;
+  font-weight: 1000;
+}
+
+.X {
+  transform: translateX(50px);
+}
+.Y {
+  transform: translateY(50px);
+}
+
+.XY {
+  transform: translate(100px, 75px);
+}

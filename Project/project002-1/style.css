@@ -1,0 +1,149 @@
+/* Resetting */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+/* Header Section */
+
+header {
+  line-height: 50px;
+}
+
+nav a {
+  color: black;
+  opacity: 0.8;
+}
+.nav__leftside {
+  float: left;
+  vertical-align: middle;
+  padding: 20px;
+}
+nav a:hover {
+  text-decoration: underline;
+}
+.nav__leftside a {
+  text-decoration: none;
+  padding: 10px;
+}
+
+.nav__rightside {
+  float: right;
+  vertical-align: middle;
+  padding: 20px;
+}
+.nav__rightside a {
+  text-decoration: none;
+  padding: 10px;
+}
+
+.nav__rightside img {
+  vertical-align: middle;
+}
+
+.nav__rightside img:hover {
+  opacity: 0.4;
+}
+
+.nav__rightside button {
+  padding: 8px;
+  background-color: #4285f4;
+  color: white;
+  border-radius: 4px;
+  border: none;
+}
+
+/*Main Section*/
+.main {
+  text-align: center;
+}
+.main__logo {
+  /* margin: 0px auto; */
+
+  margin-top: 200px;
+  width: 272px;
+  height: 92px;
+  margin-left: 120px;
+}
+
+.main__searchbar {
+  width: 460px;
+  height: 38px;
+  border: 1px solid #d3d3d3;
+
+  border-radius: 25px;
+  margin: 20px auto;
+}
+
+.main__searchbar:hover {
+  box-shadow: rgb(211, 211, 211) 3px 3px 5px 0;
+}
+
+.searchbar--mercek {
+  width: 30px;
+  height: 30px;
+  vertical-align: middle;
+}
+
+#main__searchbar--input {
+  width: 350px;
+  height: 20px;
+  vertical-align: middle;
+  outline: none;
+  border: none;
+}
+
+.main__searchbar--mic {
+  width: 10px;
+  height: 20px;
+  vertical-align: middle;
+}
+
+.main__buttons--right,
+.main__buttons--left {
+  margin: 10px 5px;
+
+  padding: 7px 10px;
+  border: none;
+  border-radius: 4px;
+  opacity: 0.8;
+  cursor: pointer;
+}
+
+.main__buttons--right:hover,
+.main__buttons--left:hover {
+  opacity: 1;
+  border: 1px solid #d3d3d3;
+  box-shadow: rgb(211, 211, 211) 0.7px 0.7px 0.7px 0;
+}
+
+/* FOOTER */
+
+.footer {
+  position: fixed;
+  bottom: 0;
+  background-color: #e4e4e4;
+  width: 100%;
+  line-height: 40px;
+}
+
+.footer__country {
+  font-size: 14px;
+  padding-left: 20px;
+  border-bottom: 1px solid #f4f4f4;
+}
+
+.footer__bottom--left a,
+.footer__bottom--right a {
+  text-decoration: none;
+  color: gray;
+  padding-left: 20px;
+}
+.footer__bottom--left {
+  float: left;
+}
+
+.footer__bottom--left {
+  float: right;
+}

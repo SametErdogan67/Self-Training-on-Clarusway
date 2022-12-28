@@ -1,0 +1,214 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+body {
+  overflow: scroll;
+}
+.h1 {
+  text-align: center;
+  background-color: gray;
+  width: 300px;
+  height: 50px;
+  border: 1px solid black;
+  position: absolute;
+  top: 300px;
+  left: 600px;
+  outline: 0.4rem inset hsl(300deg 100% 25%);
+  outline-offset: 0.6rem;
+  line-height: 2.5rem;
+  font-size: 1.3rem;
+  border-top-left-radius: 1rem;
+  border-bottom-right-radius: 1rem;
+  color: aliceblue;
+}
+.bg-img1 .h1 {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.wayto {
+  text-align: center;
+  background-color: gray;
+  width: 600px;
+  height: 100px;
+  border: 1px solid black;
+  position: absolute;
+  top: 1850px;
+  left: 450px;
+  outline: 0.4rem inset hsl(300deg 100% 25%);
+  outline-offset: 0.6rem;
+  line-height: 2.5rem;
+  font-size: 1.3rem;
+  border-top-left-radius: 2rem;
+  border-bottom-right-radius: 2rem;
+  font-size: 3rem;
+  color: aliceblue;
+}
+.team {
+  text-align: center;
+  background-color: gray;
+  width: 500px;
+  height: 70px;
+  border: 1px solid black;
+  position: absolute;
+  top: 2650px;
+  left: 500px;
+  outline: 0.4rem inset hsl(300deg 100% 25%);
+  outline-offset: 0.6rem;
+  line-height: 2.5rem;
+  font-size: 1.3rem;
+  border-top-left-radius: 2rem;
+  border-bottom-right-radius: 2rem;
+  font-size: 2rem;
+  color: aliceblue;
+}
+
+.choose {
+  text-align: center;
+  background-color: gray;
+  width: 500px;
+  height: 70px;
+  border: 1px solid black;
+  position: absolute;
+  top: 3550px;
+  left: 500px;
+  outline: 0.4rem inset hsl(300deg 100% 25%);
+  outline-offset: 0.6rem;
+  line-height: 2.5rem;
+  font-size: 1.3rem;
+  border-top-left-radius: 2rem;
+  border-bottom-right-radius: 2rem;
+  font-size: 2rem;
+  color: aliceblue;
+}
+
+.bg-img5 h1 {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.bg-img3 h1 {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.bg-img4 h1 {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-size: 2.5rem;
+}
+
+.bg-img1 {
+  background-image: url(./img/bg.jpg);
+  background-size: cover;
+  background-position: center;
+  background-attachment: fixed;
+  background-repeat: no-repeat;
+  min-height: 500px;
+  opacity: 70%;
+}
+
+.bg-img2 {
+  background-image: url(./img/bg2.jpg);
+  background-size: cover;
+  background-position: center;
+  background-attachment: fixed;
+  background-repeat: no-repeat;
+  min-height: 500px;
+  opacity: 70%;
+}
+
+.bg-img3 {
+  background-image: url(./img/bg3.jpg);
+  background-size: cover;
+  background-position: center;
+  background-attachment: fixed;
+  background-repeat: no-repeat;
+  min-height: 500px;
+  opacity: 70%;
+}
+
+.bg-img4 {
+  background-image: url(./img/bg4.jpg);
+  background-size: cover;
+  background-position: center;
+  background-attachment: fixed;
+  background-repeat: no-repeat;
+  min-height: 500px;
+  opacity: 70%;
+}
+
+.bg-img5 {
+  background-image: url(./img/bg1.jpg);
+  background-size: cover;
+  background-position: center;
+  background-attachment: fixed;
+  background-repeat: no-repeat;
+  min-height: 500px;
+  opacity: 70%;
+}
+
+.fs {
+  background-color: whitesmoke;
+  text-align: center;
+  padding: 30px;
+  font-size: 1.6 rem;
+  line-height: 30px;
+  letter-spacing: 1px;
+}
+
+.fs h2 {
+  margin-bottom: 20px;
+}
+
+.aws {
+  background-color: whitesmoke;
+  text-align: center;
+  padding: 30px;
+  font-size: 1.6 rem;
+  line-height: 30px;
+  letter-spacing: 1px;
+  color: white;
+  background-color: rgb(69, 65, 65);
+}
+.aws h2 {
+  margin-bottom: 20px;
+}
+
+.data {
+  background-color: whitesmoke;
+  text-align: center;
+  padding: 30px;
+  font-size: 1.6 rem;
+  line-height: 30px;
+  letter-spacing: 1px;
+}
+
+.data h2 {
+  margin-bottom: 20px;
+}
+
+.why {
+  background-color: whitesmoke;
+  text-align: center;
+  padding: 30px;
+  font-size: 1.6 rem;
+  line-height: 30px;
+  letter-spacing: 1px;
+  color: white;
+  background-color: rgb(69, 65, 65);
+}
+.why h2 {
+  margin-bottom: 20px;
+}
+
+.bg-img2 img {
+  position: absolute;
+  left: 500px;
+  top: 1050px;
+}
