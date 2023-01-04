@@ -1,0 +1,141 @@
+@import "theme.css";
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  background-color: var(--white);
+  font-family: var(--ff-roboto);
+}
+.container {
+  width: 1200px;
+  max-width: 100%;
+  margin: 0 auto;
+  padding: 1rem 2rem;
+}
+
+header {
+  padding: 1rem;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+header img {
+  width: 200px;
+}
+
+button {
+  border: 2px solid var(--red-dark);
+  border-radius: 5px;
+  box-shadow: var(--shadow-light);
+  padding: 1rem 1.2rem;
+  font-family: var(--ff-yeon);
+  font-size: var(--fs-lg);
+  margin: 1rem 0.5rem;
+  white-space: nowrap;
+}
+
+button:hover {
+  cursor: pointer;
+  opacity: 0.9;
+  transform: scale(0.97);
+}
+
+.btn-light {
+  background-color: var(--white);
+  color: var(--red-dark);
+}
+
+.btn-dark {
+  background-color: var(--red-dark);
+  color: var(--white);
+}
+
+nav.hero {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+nav.hero section {
+  flex: 1;
+}
+
+nav.hero img {
+  width: 80%;
+  min-width: 300px;
+  flex: 1;
+}
+
+nav.hero h1 {
+  font-size: var(--fs-lg);
+  line-height: var(--line-h-xl);
+  text-align: justify;
+}
+
+nav.hero p {
+  font-size: var(--fs-md);
+  line-height: var(--line-h-xl);
+  text-align: justify;
+}
+
+main .card {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border: 20px;
+  box-shadow: var(--shadow-light);
+  padding: 1rem;
+  gap: 1rem;
+  margin: 2rem 0;
+}
+
+main .card article {
+  flex: 1;
+  line-height: var(--line-h-xl);
+}
+
+main .card img {
+  width: 100%;
+}
+
+main .card:nth-child(odd) {
+  flex-direction: row;
+}
+
+main .card:nth-child(even) {
+  flex-direction: row-reverse;
+}
+
+@media screen and (max-width: 700px) {
+  header {
+    flex-direction: column;
+    text-align: center;
+  }
+  header img {
+    transform: scale(1.5);
+  }
+  nav.hero {
+    flex-direction: column;
+  }
+  nav.hero section {
+    text-align: center;
+  }
+
+  main .card:nth-child(odd) {
+    flex-direction: column;
+  }
+  main .card:nth-child(even) {
+    flex-direction: column;
+  }
+  body {
+    background-color: var(--green);
+  }
+}
+@media screen and (min-width: 1200px) and (max-width: 1400px) {
+  body {
+    background-color: blueviolet;
+  }
+}

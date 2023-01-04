@@ -1,0 +1,100 @@
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+/*? HEADER */
+
+header {
+  background-color: rgb(56, 59, 70);
+  background-color: rgb(56, 59, 70);
+  height: 70px;
+  display: flex;
+  justify-content: space-between;
+  flex-wrap: wrap;
+  border-bottom: 2px solid magenta;
+  color: white;
+  align-items: center;
+}
+.header-about {
+  color: rgb(178, 15, 178);
+}
+header a {
+  color: white;
+  text-decoration: none;
+  font-size: 1rem;
+  padding-right: 1.5rem;
+}
+.clarusway {
+  color: rgb(178, 15, 178);
+}
+
+.left {
+  font-size: 1.7rem;
+  padding-left: 20px;
+}
+
+.subscribe {
+  display: flex;
+  justify-content: space-between;
+  background-color: rgb(56, 59, 70);
+  color: white;
+  height: 70px;
+  align-items: center;
+}
+input {
+  padding: 8px;
+}
+button {
+  background-color: tomato;
+  color: white;
+  padding: 10px;
+  margin-right: 20px;
+}
+
+h3 {
+  padding-left: 20px;
+}
+
+main {
+  display: flex;
+  justify-content: space-between;
+}
+.design {
+  background-color: rgb(213, 214, 218);
+  padding: 35px;
+  margin: 20px;
+  line-height: 30px;
+}
+.left-side-h3 {
+  padding-top: 20px;
+  padding-left: 20px;
+}
+
+.right-side {
+  background-color: rgb(56, 59, 70);
+  color: white;
+  height: 350px;
+  padding: 30px;
+  margin: 30px;
+}
+
+.right-side input {
+  width: 350px;
+}
+
+.right-side textarea {
+  width: 350px;
+}
+
+footer {
+  color: white;
+  background-color: rgb(56, 59, 70);
+  text-align: center;
+  height: 160px;
+}
+
+footer h3 {
+  padding-top: 50px;
+}
