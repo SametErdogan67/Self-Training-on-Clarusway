@@ -1,0 +1,20 @@
+* {
+  margin: 0px;
+  padding: 0px;
+}
+
+nav {
+  background-color: #44ffd7;
+}
+
+.left {
+  list-style: none;
+}
+.left li {
+  display: inline-block;
+  margin: 15px;
+}
+
+li:first-child {
+  color: white;
+}/*# sourceMappingURL=style.css.map */

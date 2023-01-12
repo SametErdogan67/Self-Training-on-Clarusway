@@ -1,0 +1,37 @@
+.item1 {
+  grid-area: header;
+}
+.item2 {
+  grid-area: small1;
+}
+.item3 {
+  grid-area: small2;
+}
+.item4 {
+  grid-area: small3;
+}
+.item5 {
+  grid-area: sidebar;
+}
+.item6 {
+  grid-area: main;
+}
+.item7 {
+  grid-area: footer;
+}
+
+.container {
+  display: grid;
+  grid-template-areas:
+    "header header header header "
+    "small1 small2 small3 sidebar"
+    "main main main sidebar"
+    "footer footer footer footer";
+  grid-gap: 20px;
+}
+.box {
+  grid-gap: 10px;
+  margin: 10px;
+  border: 2px solid black;
+  background-color: blueviolet;
+}

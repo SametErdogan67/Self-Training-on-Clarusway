@@ -1,0 +1,38 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+.container {
+  display: grid;
+  grid-template-columns: auto auto auto;
+  background-color: rgb(80, 80, 249);
+  margin: 20px;
+  text-align: center;
+  grid-gap: 10px;
+  padding: 10px;
+}
+
+.box {
+  background-color: rgb(200, 200, 248);
+  /* margin: 10px; */
+  padding: 30px;
+  font-size: 2rem;
+}
+
+@media screen and (max-width: 700px) {
+  .box1 {
+    grid-area: 1/1/2/4;
+  }
+
+  .box2 {
+    grid-area: 3/3/4/4;
+  }
+  .box4 {
+    grid-area: 2/2/4/3;
+  }
+  .box5 {
+    grid-area: 3/1/4/2;
+  }
+}
