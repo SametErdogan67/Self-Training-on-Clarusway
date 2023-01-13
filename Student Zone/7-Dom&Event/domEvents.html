@@ -1,0 +1,326 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <!-- CSS only -->
+    <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0-beta1/dist/css/bootstrap.min.css"
+      rel="stylesheet"
+      integrity="sha384-0evHe/X+R7YkIZDRvuzKMRqM+OrBnVFBL6DOitfPri4tjfHxaWutUpFmBp4vmVor"
+      crossorigin="anonymous"
+    />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.1.1/css/all.min.css"
+      integrity="sha512-KfkfwYDsLkIlwQp6LFnl8zNdLGxu9YAA1QvwINks4PhcElQSvqcyVLLD9aMhXd13uQjoXtEKNosOWaZqXgel0g=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    />
+
+    <style>
+      .göster {
+        display: block;
+      }
+      .gizle {
+        display: none;
+      }
+
+      .renk {
+        width: 70%;
+        height: 50vh;
+        border: 3px solid black;
+      }
+    </style>
+  </head>
+  <body>
+    <!-------------------------------------------------------->
+    <!-- 1. onclick -->
+
+    <!-- 1. yöntem  HTML içerisinde olayları tanımlayarak ve kullanarak (inline) -->
+
+    <!-- <div class="container d-flex justify-content-center mt-5">
+      <button
+        type="button"
+        class="btn btn-danger"
+        onclick="style.backgroundColor='blue'"
+      >
+        Click
+      </button>
+    </div> -->
+
+    <!-------------------------------------------------------->
+
+    <!-- 2. yöntem HTML içerisinde olay ve fonksiyonları çağırarak ve Javascript içerisinde bunları tanımlayarak-->
+
+    <!-- <div class="container d-flex justify-content-center mt-5">
+      <button type="button" class="btn btn-success px-4" onclick="ac()">
+        AÇ
+      </button>
+      <button type="button" class="btn btn-danger mx-5" onclick=" kapa()">
+        KAPAT
+      </button>
+    </div>
+    <div class="container mx-auto d-flex mt-5">
+      <img
+        id="myImage"
+        class="mx-auto"
+        src="https://www.w3schools.com/js/pic_bulboff.gif"
+        alt="ısık"
+      />
+    </div>
+
+    <script>
+      const img = document.querySelectorAll('img')
+      function ac() {
+        img[0].src = 'https://www.w3schools.com/js/pic_bulbon.gif'
+      }
+
+      function kapa() {
+        img[0].src = 'https://www.w3schools.com/js/pic_bulboff.gif'
+      }
+    </script> -->
+
+    <!-------------------------------------------------------->
+
+    <!-- 3. yöntem HTML sayfasında herhangi bir ekleme yapmaksızın
+    sadece Javascript ile Olayları kontrol ederek. -->
+
+    <!-- <div class="d-flex justify-content-center align-items-center vh-100">
+      <div
+        id="kutu"
+        style="width: 300px; height: 300px; border: 3px solid black"
+      ></div>
+    </div>
+
+    <script>
+      const kutu = document.getElementById('kutu')
+      kutu.onmouseover = function () {
+        kutu.style.transition = 'all 1s ease-in-out'
+        kutu.style.width = '100px'
+      }
+      kutu.onmouseout = function () {
+        kutu.style.transition = 'all 1s ease-in-out'
+        kutu.style.width = '300px'
+      }
+    </script> -->
+
+    <!-------------------------------------------------------->
+
+    <!--  
+      4.yöntem addEventListener() metodu ile Javascript kodunda Olay
+      tanımlayarak. -->
+
+    <!-- Syntax: element.addEventListener(olay, fonksiyon) -->
+
+    <!-- <div
+      class="d-flex justify-content-center align-items-center flex-column vh-100"
+    >
+      <div class="renk"></div>
+    </div>
+
+    <script>
+      const renk = document.querySelector('.renk')
+
+      renk.addEventListener('mousemove', () => {
+        const randomColor = //
+          '#' + Math.floor(Math.random() * 16777215).toString(16)
+        renk.style.backgroundColor = randomColor
+      })
+    </script> -->
+
+    <!-- onfocus and onblur events -->
+
+    <!-- <div
+      class="d-flex justify-content-center align-items-center flex-column vh-100"
+    >
+      Enter your name:
+      <input
+        type="text"
+        id="myInput"
+        onfocus="focusFunction()"
+        onblur="blurFunction()"
+      />
+    </div>
+
+    <script>
+      function focusFunction() {
+        // Focus = Changes the background color of input to yellow
+        document.getElementById('myInput').style.background = 'yellow'
+      }
+
+      function blurFunction() {
+        // No focus = Changes the background color of input to red
+        document.getElementById('myInput').style.background = 'red'
+      }
+    </script> -->
+
+    <!-- resize event -->
+
+    <!-- <div
+      class="d-flex justify-content-center align-items-center flex-column vh-100"
+      style="font-size: 5rem"
+    >
+      <p id="demo"></p>
+    </div>
+
+    <script>
+      let demo = document.getElementById('demo')
+      const intFrameWidth = document.body.clientWidth
+
+      window.addEventListener('resize', function () {
+        demo.innerHTML = intFrameWidth
+      })
+    </script> -->
+
+    <!-------------------------------------------------------->
+
+    <!-- setInterval -->
+
+    <!-- <div
+      class="d-flex justify-content-center align-items-center flex-column vh-100"
+      style="font-size: 5rem"
+    >
+      <p
+        id="demo"
+        class="border p-4 bg-info bg-opacity-10 border border-info rounded-4"
+      ></p>
+    </div>
+
+    <script>
+      setInterval(myTimer, 1000)
+
+      function myTimer() {
+        const d = new Date()
+        document.getElementById('demo').innerHTML = d.toLocaleTimeString()
+      }
+    </script> -->
+
+    <!-- addeventlistener parametre gönderme -->
+
+    <!-- <div
+      class="d-flex justify-content-center align-items-center flex-column vh-100"
+    >
+      <input
+        type="number"
+        name=""
+        class="form-control-lg border-outline-3 mb-5"
+        id="c1"
+      />
+      <input
+        type="number"
+        name=""
+        class="form-control-lg border-outline-3 mb-5"
+        id="c2"
+      />
+      <button class="btn btn-primary px-4 fs-2" id="myBtn">Çarp</button>
+      <p
+        id="demo"
+        class="border text-center fs-1 text-info mt-5 bg-info bg-opacity-10 border border-info rounded-4"
+        style="height: 50px; width: 200px"
+      ></p>
+    </div>
+
+    <script>
+      document.getElementById('myBtn').addEventListener('click', function () {
+        const c1 = document.querySelector('#c1').value
+        const c2 = document.querySelector('#c2').value
+        myFunction(c1, c2)
+      })
+
+      function myFunction(a, b) {
+        document.getElementById('demo').innerText = a * b
+      }
+    </script> -->
+
+    <!-------------------------------------------------------->
+
+    <!-- price hesapla  -->
+
+    <!-- <div
+      class="d-flex justify-content-center align-items-center flex-column vh-100"
+    >
+      <div
+        style="background: rgb(255, 255, 255)"
+        class="border border-dark border-3 p-2 rounded-3 d-flex"
+      >
+        <button
+          id="btnMinus"
+          onclick="azalt()"
+          class="btn btn-light"
+          style="background-color: rgb(96, 96, 96); color: #fff"
+        >
+          <i class="fa-solid fa-minus"></i>
+        </button>
+        <span
+          id="num"
+          class="mx-3 fs-1 text-center"
+          style="font-weight: 500; width: 40px"
+          >0</span
+        >
+        <button
+          id="btnPlus"
+          onclick="artır()"
+          class="btn btn-light"
+          style="background-color: rgb(96, 96, 96); color: #fff"
+        >
+          <i class="fa-solid fa-plus"></i>
+        </button>
+      </div>
+
+      <div style="width: 200px; height: 30px">
+        <p class="h2 pb-2 mt-5 text-danger border-bottom border-danger">
+          Price : $ 12
+        </p>
+        <p class="h1 pb-2 text-danger border-bottom border-danger">
+          Total : $ <span id="total">0</span>
+        </p>
+      </div>
+    </div>
+
+    <script>
+      const minus = document.getElementById('btnMinus')
+      const plus = document.getElementById('btnPlus')
+      var num = document.querySelector('#num')
+      let number = 0
+
+      const total = document.getElementById('total')
+
+      function artır() {
+        number += 1
+        if (number > 20) {
+          number = 20
+        }
+        if (number < 0) {
+          number = 0
+        }
+        num.textContent = number
+        total.textContent = number * 12
+      }
+      function azalt() {
+        number -= 1
+        if (number > 20) {
+          number = 20
+        }
+        if (number < 0) {
+          number = 0
+        }
+        num.textContent = number
+        total.textContent = number * 12
+      }
+    </script> -->
+
+    <!-------------------------------------------------------->
+
+    <script src="./dom.js"></script>
+
+    <!-- JavaScript Bundle with Popper -->
+    <script
+      src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0-beta1/dist/js/bootstrap.bundle.min.js"
+      integrity="sha384-pprn3073KE6tl6bjs2QrFaJGz5/SUsLqktiwsUTF55Jfv3qYSDhgCecCxMW52nD2"
+      crossorigin="anonymous"
+    ></script>
+  </body>
+</html>
