@@ -1,0 +1,25 @@
+.nav {
+  height: 10vh;
+  padding: 1rem;
+  &__list {
+    text-align: right;
+  }
+  &__item {
+    display: inline;
+    padding: 1rem;
+  }
+
+  &__link {
+    font-size: 1rem;
+    font-weight: 500;
+    font-family: $font-family;
+    // transition: all 1s;
+    @include transition(1s);
+  }
+  &:hover {
+    color: blue;
+  }
+  &--active {
+    color: $secondary-color;
+  }
+}

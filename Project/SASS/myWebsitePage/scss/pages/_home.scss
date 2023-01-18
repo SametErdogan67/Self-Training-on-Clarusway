@@ -1,0 +1,33 @@
+//*****************************************************
+//*   HOME PAGE
+//*****************************************************
+
+.home-bgImg-container {
+  background-image: url(../image/11.JPG);
+  opacity: 0.8;
+  background-size: cover;
+  background-position: center center;
+  height: 100vh;
+  width: 100%;
+}
+
+.home {
+  // border: 2px solid red;
+  height: 80vh;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  text-align: center;
+  color: red;
+
+  &__name {
+    font-size: 5rem;
+    padding-bottom: 1rem;
+    margin-bottom: 1rem;
+    border-bottom: 2px solid red;
+    &--last {
+      color: rgb(248, 247, 247);
+      font-weight: 900;
+    }
+  }
+}

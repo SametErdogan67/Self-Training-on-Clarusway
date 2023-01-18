@@ -1,0 +1,75 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+.container {
+  border: 2px solid red;
+  width: 500px;
+  height: auto;
+  margin: 50px auto;
+}
+
+header {
+  text-align: center;
+}
+header h1 {
+  border-bottom: 2px solid red;
+  padding: 10px;
+  font-size: 1.5rem;
+}
+
+form {
+  margin: 15px 10px;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+form input {
+  width: 400px;
+  height: 30px;
+  padding: 15px 5px;
+  border-radius: 25px;
+}
+form button {
+  padding: 8px 15px;
+
+  border-radius: 15px;
+}
+.title-list {
+  display: flex;
+  justify-content: space-between;
+  padding: 5px 20pxO;
+}
+.myList {
+  padding: 20px;
+  font-size: 1.2rem;
+  background-color: rgb(211, 209, 209);
+
+  margin-bottom: 10px;
+}
+ul {
+  margin: 15px 10px;
+}
+
+ul li {
+  margin-bottom: 10px;
+  border: 1px solid red;
+  padding: 10px 5px;
+  list-style-type: none;
+  position: relative;
+}
+
+ul li.checked {
+  background: gray;
+  color: #fff;
+}
+
+.close {
+  position: absolute;
+  right: 0;
+  top: 0;
+  padding: 10px 15px;
+}

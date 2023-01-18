@@ -1,0 +1,26 @@
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+.nav {
+  border: 2px solid red;
+  height: 10vh;
+  padding: 1rem;
+}
+.nav__list {
+  text-align: right;
+}
+.nav__item {
+  display: inline;
+  padding: 1rem;
+}
+.nav__link {
+  font-size: 1rem;
+  text-transform: uppercase;
+  font-weight: 500;
+  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+}
+
+/*# sourceMappingURL=main.css.map */

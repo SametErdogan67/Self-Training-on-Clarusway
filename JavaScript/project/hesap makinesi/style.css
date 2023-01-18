@@ -1,0 +1,48 @@
+.container {
+  width: 350px;
+  height: auto;
+  background-color: rgb(9, 9, 9);
+  border-radius: 5px;
+  padding: 10px;
+  margin: 100px auto;
+}
+
+#ekran {
+  padding: 10px 0px 10px 0px;
+  text-align: center;
+}
+
+#sonuc {
+  padding: 10px;
+  width: 90%;
+  border: none;
+  border-radius: 5px;
+  text-align: right;
+  font-size: 50px;
+  word-wrap: break-word;
+}
+
+#sayilar {
+  text-align: center;
+  margin-top: 100px;
+  margin-bottom: 20px;
+}
+
+button {
+  width: 70px;
+  height: 70px;
+  margin: 4px;
+  border-radius: 50%;
+  background-color: whitesmoke;
+  border: none;
+  outline: none;
+  font-size: 2rem;
+  background-color: rgb(68, 66, 66);
+  color: white;
+}
+.silme {
+  background-color: red;
+}
+.orange {
+  background-color: orange;
+}

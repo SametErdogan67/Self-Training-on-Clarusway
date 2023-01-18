@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <div class="container">
+      <header id="header">
+        <h1 id="title">Yapılacaklar Listesi</h1>
+      </header>
+      <main class="card">
+        <form action="" id="form">
+          <input
+            type="text"
+            id="txtItem"
+            placeholder="bugün ne yapacağını ekle"
+          />
+          <button type="submit" id="btn-create">Ekle</button>
+        </form>
+        <div class="task" id="todo-list">
+          <div class="title-list" id="title-list">
+            <h4>My List</h4>
+            <button id="btn-delete">Delete All</button>
+          </div>
+          <ul id="my-list">
+            <!-- <li class="list-group-item checked">
+              Berat Mert'i okula bırak <span class="close">X</span>
+            </li>
+            <li class="list-group-item">
+              Güzel bir kahvaltı yap <span class="close">X</span>
+            </li>
+            <li class="list-group-item">
+              Saat 9'da işe başla <span class="close">X</span>
+            </li>
+            <li class="list-group-item">
+              5 saat Yazılım Çalış <span class="close">X</span>
+            </li>
+            <li class="list-group-item">
+              3 litre su iç <span class="close">X</span>
+            </li> -->
+          </ul>
+        </div>
+      </main>
+    </div>
+
+    <script src="app.js"></script>
+  </body>
+</html>

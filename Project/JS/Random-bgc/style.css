@@ -25,4 +25,5 @@ button {
 
 button:hover {
   border: 6px solid red;
+  cursor: pointer;
 }
