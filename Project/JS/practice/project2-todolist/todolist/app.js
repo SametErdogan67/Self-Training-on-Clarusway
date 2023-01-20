@@ -12,38 +12,57 @@ items.forEach(function (item) {
 });
 
 myList.addEventListener("click", function (item) {
-  if ((item.target.tagName = "li")) {
+  if (item.target.tagName == "LI") {
     item.target.classList.toggle("checked");
+    toggleDeleteButton();
   }
 });
+
+document.querySelector("#btn-delete").onclick = function () {
+  let elements = documnet.querySelectoAll(".checked");
+  elements.forEach(function (item) {
+    item.style.display = "none";
+  });
+};
+
+function toggleDeleteButton() {
+  let checkList = document.querySelectorAll(".list-group-item.checked");
+  if (checkList.length > 0) {
+    document.querySelector("#btn-delete").classList.remove("btn-delete");
+  } else {
+    document.querySelector("#btn-delete").classList.add("btn-delete");
+  }
+}
 
 let btnCreate = document.querySelector("#btn-create");
 btnCreate.addEventListener("click", function () {
   let item = document.querySelector("#txtItem").value;
-  console.log(item);
 
   if (item === "") {
     alert("lütfen bir değer giriniz");
+    return;
   }
   createItem(item);
+  event.preventDefault();
 });
 
 function createItem(item) {
   let li = document.createElement("li");
-  let text = document.createTextNode(item);
+  let t = document.createTextNode(item);
 
   li.className = "list-group-item";
-  li.appendChild(text);
+  li.appendChild(t);
   myList.appendChild(li);
 
   let span = document.createElement("span");
-  let text1 = document.createTextNode("x");
+  let text = document.createTextNode("x");
   span.className = "close";
-  span.appendChild(text1);
+  span.appendChild(text);
   li.appendChild(span);
 
   span.onclick = function () {
     let li = this.parentElement;
     li.style.display = "none";
+    li.classList.remove("checked");
   };
 }

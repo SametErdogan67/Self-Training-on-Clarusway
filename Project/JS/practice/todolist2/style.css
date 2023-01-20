@@ -1,0 +1,50 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  background-color: antiquewhite;
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+}
+
+input {
+  height: 50px;
+  width: 450px;
+  background-color: white;
+}
+
+button {
+  height: 55px;
+  width: 55px;
+}
+
+.contentDiv {
+  height: 700px;
+  width: 520px;
+  background-color: white;
+  margin-top: 10px;
+  font-size: 1.3rem;
+}
+
+.deleteButton {
+  height: 30px;
+  width: 42px;
+  background-color: red;
+  display: inline-block;
+  color: white;
+  margin-left: 10px;
+  cursor: pointer;
+}
+
+.finishButton {
+  height: 30px;
+  width: 42px;
+  background-color: yellow;
+  display: inline-block;
+  color: white;
+  margin-left: 10px;
+  cursor: pointer;
+}
