@@ -1,0 +1,128 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  color: white;
+}
+
+body {
+  background-color: #4158d0;
+  background-image: linear-gradient(
+    43deg,
+    #4158d0 0%,
+    #c850c0 46%,
+    #ffcc70 100%
+  );
+
+  background-size: cover;
+  background-repeat: no-repeat;
+  height: 100vh;
+}
+
+.container {
+  background-color: rgb(36, 34, 34);
+  opacity: 0.5;
+  width: 700px;
+  margin: 50px auto;
+  padding: 10px;
+  border-radius: 50px;
+}
+h1 {
+  text-align: center;
+  font-size: 5rem;
+}
+
+.form {
+  display: flex;
+  justify-content: center;
+}
+
+.btnDiv {
+  display: flex;
+  justify-content: center;
+  margin: 50px 0;
+}
+
+.btn {
+  width: 250px;
+  font-size: 1.2rem;
+  padding: 5px;
+  border: 3px solid black;
+  border-radius: 10px;
+  color: white;
+  background: none;
+  cursor: pointer;
+  transition: background-color 0.5s;
+}
+
+.btn:hover {
+  background-color: black;
+}
+
+.btn:active {
+  transform: scale(1.1);
+}
+
+::placeholder {
+  color: whitesmoke;
+}
+
+.inputText {
+  margin-top: 10px;
+  width: 600px;
+  border: none;
+  outline: none;
+  padding: 10px;
+  text-align: center;
+  color: whitesmoke;
+  background-color: rgba(240, 248, 255, 0);
+  font-size: 1.4rem;
+  border-bottom: 3px solid black;
+}
+
+.info {
+  margin: 20px;
+  font-size: 1.5rem;
+  font-weight: bold;
+  color: whitesmoke;
+  text-align: center;
+}
+
+.info p {
+  margin-top: 20px;
+}
+
+.genelDeger {
+  margin-top: 20px;
+  display: flex;
+  justify-content: center;
+}
+
+.genelDeger .fa-circle {
+  font-size: 22px;
+  transform: translate(10px, 25px);
+}
+
+.genelDeger .fa-c {
+  transform: translate(10px, 25px);
+  font-size: 4rem;
+}
+
+#sicaklik {
+  font-size: 4rem;
+}
+
+.his {
+  display: flex;
+  justify-content: center;
+}
+
+.his .fa-c {
+  font-size: 2rem;
+  transform: translate(10px, 25px);
+}
+
+.his .fa-circle {
+  font-size: 1rem;
+  transform: translate(10px, 20px);
+}
