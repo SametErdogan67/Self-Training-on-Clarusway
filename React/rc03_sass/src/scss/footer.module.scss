@@ -1,0 +1,14 @@
+@import "variables";
+
+.footer {
+  background-color: $navyBlue;
+  padding: 2rem;
+  position: fixed;
+  bottom: 0;
+  left: 0;
+  width: 100%;
+  p {
+    font-weight: 800;
+    color: white;
+  }
+}
